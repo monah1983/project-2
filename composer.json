@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/form",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "monah",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "respect/validation": "^2.1",
+    "doctrine/orm": "^2.8"
+  },
+  "autoload": {
+    "psr-4": {"MyForm\\": "src/"}
+  }
+}
